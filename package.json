@@ -1,0 +1,16 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://omoghaoghenemano.github.io/refactored-tribble",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
