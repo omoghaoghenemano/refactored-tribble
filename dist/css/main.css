@@ -94,6 +94,9 @@ footer a{
   width: 70%;
   height: 50%;
 }
+#goleft{
+  display: none;
+}
 @media only screen and (max-width: 600px) {
   body {
     background-color: black;
@@ -104,8 +107,10 @@ footer a{
   }
   #next{
     text-align: center;
+    margin-top: 2%;
   }
   #goleft{
+    display: block;
     float: right;
    margin-top: -11%;
    margin-right: 2%;
