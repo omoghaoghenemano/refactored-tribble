@@ -130,16 +130,15 @@ footer a{
     color: white;
     text-align: center;
   }
-  #forme a{
+  .decorate {
     color: white;
     text-decoration: none;
     text-align: center;
     background-color: red;
     padding: 8px;
-    margin-left: 45%;
-
-
+    margin-left: 43%;
   }
+
   #forme img{
     width:100%;
     height: 50%;
@@ -171,7 +170,18 @@ footer a{
     font-size: 16px;
     font-family:serif;
   }
-  
+  #cover{
+
+  }
+  #cover a{
+    text-decoration: none !important;
+    color: black;
+  }
+  .valu a{
+    text-decoration: none !important;
+    color: black;
+    margin-left: auto;
+  }
   #forme iframe{
    
     display: block;
