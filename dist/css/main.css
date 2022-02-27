@@ -140,6 +140,38 @@ footer a{
 
 
   }
+  #forme img{
+    width:100%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+ 
+  }
+  #forme a:hover{
+    opacity: 0.3;
+    
+  }
+  .valu{
+    background-color: white;
+   padding: 10%;
+   color: black;   
+  }
+  .valu h1{
+    color: black !important;
+    text-align: center  !important;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: normal;
+  }
+  .valu p{
+    color: black !important;
+    text-align: center !important;
+  }
+  .valu blockquote{
+    font-size: 16px;
+    font-family:serif;
+  }
+  
   #forme iframe{
    
     display: block;
@@ -150,6 +182,8 @@ footer a{
     .sidenav a {font-size: 18px;}
 
   #next{
+
+
     text-align: center;
     margin-top: 4%;
   }
