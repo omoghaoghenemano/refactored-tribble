@@ -12,6 +12,10 @@ border: none;
 
 
 }
+#sidenav{
+  display:none;
+}
+
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
@@ -94,20 +98,60 @@ footer a{
   width: 70%;
   height: 50%;
 }
+#forme{
+  display: none;
+}
 #goleft{
   display: none;
 }
 @media only screen and (max-width: 600px) {
   body {
     background-color: black;
+    color: white;
   }
   #removeme{
     display: none;
 
   }
+
+  #forme{
+    margin-top: 10%;
+    
+    display: block;
+    font-family: sans-serif;
+    
+  }
+  #forme h1{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+  #forme p{
+    color: white;
+    text-align: center;
+  }
+  #forme a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: red;
+    padding: 8px;
+    margin-left: 45%;
+
+
+  }
+  #forme iframe{
+   
+    display: block;
+    margin: 0 auto;
+  }
+  .sidenav {padding-top: 15px;
+    display: block;}
+    .sidenav a {font-size: 18px;}
+
   #next{
     text-align: center;
-    margin-top: 2%;
+    margin-top: 4%;
   }
   #goleft{
     display: block;
